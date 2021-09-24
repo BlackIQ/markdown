@@ -80,3 +80,26 @@ This is **Amir**. Nice to meet **you**.
 Output:
 
 This is **Amir**. Nice to meet **you**.
+
+Ok, Now how to make a text **italic**? Just use one star `*`.
+
+HTML:
+```html
+He said <i>I love to use Git in my projects</i>.
+```
+
+Output:
+
+He said *I love to use Git in my projects*.
+
+Again, in **MD** there is no differences.
+
+Markdown:
+
+```markdown
+He said *I love to use Git in my projects*.
+```
+
+Output:
+
+He said *I love to use Git in my projects*.
