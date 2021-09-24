@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # Learn Markdown (English)
 
 Learn **Markdown** so easy in here.
@@ -10,6 +12,8 @@ In **HTML** we use `<h1></h1>` tag. These are **Heading**s. But not **md**. We u
 
 HTML:
 
+<div dir="ltr">
+
 ```html
 <h1>Heading</h1>
 <h2>Heading</h2>
@@ -18,6 +22,8 @@ HTML:
 <h5>Heading</h5>
 <h6>Heading</h6>
 ```
+
+</div>
 
 Output:
 
@@ -32,6 +38,8 @@ Ok, But how to use these in **Markdown**?
 
 Markdown:
 
+<div dir="ltr">
+
 ```markdown
 # Heading
 ## Heading
@@ -39,7 +47,9 @@ Markdown:
 #### Heading
 ##### Heading
 ###### Heading
-````
+```
+
+</div>
 
 Output:
 
@@ -61,9 +71,14 @@ The meaning of text styles is the same as **bolding** and **italicizing** the te
 In **HTML** we use `<b></b>` tags. In **md** we just use `**` in start and end of the text. Look at examples.
 
 HTML:
+
+<div dir="ltr">
+
 ```html
 This is <b>Amir</b>. Nice to meet <b>you</b>.
 ```
+
+</div>
 
 Output:
 
@@ -73,9 +88,13 @@ In **MD** there is no differences.
 
 Markdown:
 
+<div dir="ltr">
+
 ```markdown
 This is **Amir**. Nice to meet **you**.
 ```
+
+</div>
 
 Output:
 
@@ -84,9 +103,14 @@ This is **Amir**. Nice to meet **you**.
 Ok, Now how to make a text **italic**? Just use one star `*`.
 
 HTML:
+
+<div dir="ltr">
+
 ```html
 He said <i>I love to use Git in my projects</i>.
 ```
+
+</div>
 
 Output:
 
@@ -96,9 +120,13 @@ Again, in **MD** there is no differences.
 
 Markdown:
 
+<div dir="ltr">
+
 ```markdown
 He said *I love to use Git in my projects*.
 ```
+
+</div>
 
 Output:
 
@@ -114,9 +142,13 @@ You can easily do that in **MD** syntax. Let's take a look to **HTML**.
 
 HTML:
 
+<div dir="ltr">
+
 ```html
 Open <a href="https://google.com">Google</a>
 ```
+
+</div>
 
 Output:
 
@@ -124,9 +156,13 @@ Open [Google](https://google.com)
 
 Markdown:
 
+<div dir="ltr">
+
 ```markdown
 Open [Google](https://google.com)
 ```
+
+</div>
 
 Open [Google](https://google.com)
 
@@ -140,9 +176,13 @@ I love puting images in **Markdown**. Simple, Fast and easy syntax. As always, h
 
 HTML:
 
+<div dir="ltr">
+
 ```html
 <img alt="Tree" src="https://wallpapercave.com/wp/wp3385761.jpg">
 ```
+
+</div>
 
 Output:
 
@@ -152,9 +192,13 @@ In **MD** this is more easiler. Just pay attention.
 
 Markdown:
 
+<div dir="ltr">
+
 ```markdown
 [![Image Alt](image url)](link of picture)
 ```
+
+</div>
 
 Ok, In first sight, what did you remember? Linking. Right. kind of same. But in Link text we use `![image alt](image url)`. Image url is the image `src` and image alt is a text that if pictue couldn't load, text will be appear. And `link of picture` is a link that will be for picture. I mean when people click on it, will go to that link.
 
@@ -168,6 +212,8 @@ We use 2 kind of lists. Ordinary and Unordinary. `ol` and `ul`. But this is just
 
 HTML:
 
+<div dir="ltr">
+
 ```html
 <ul>
     <li>Item 1</li>
@@ -175,6 +221,8 @@ HTML:
     <li>Item 3</li>
 </ul>
 ```
+
+</div>
 
 Output:
 
@@ -186,11 +234,15 @@ And in **MD** we just use `-`!
 
 Markdown:
 
+<div dir="ltr">
+
 ```markdown
 - Item 1
 - Item 2
 - Item 3
 ```
+
+</div>
 
 How easy was that!? So much :)
 
@@ -202,15 +254,21 @@ Time to say the part that is really good. The reason that we use **Markdown**. t
 
 First lets speak about **inline**. Well we have nothing like this in **HTML**. Let's go to **markdown** code right now.
 
+<div dir="ltr">
+
 ```markdown
 This is an `inline highlighted` text.
 ```
+
+</div>
 
 Output:
 
 This is an `inline highlighted` text.
 
 Ok, now we know about inline highlights. But how to create something like this? :
+
+<div dir="ltr">
 
 ```python
 from platform import system as pltfrm
@@ -223,6 +281,8 @@ elif pltfrm().lower() == "linux":
 else:
     sstm("clear")
 ```
+
+</div>
 
 Simple! Look at the code below:
 
@@ -242,11 +302,15 @@ You can use **TODO** in **markdown**.
 - [ ] Buy some LEDs
 - [x] Wash my hands :)
 
+<div dir="ltr">
+
 ```markdown
 - [x] Go school
 - [ ] Buy some LEDs
 - [x] Wash my hands :)
 ```
+
+</div>
 
 Use **TODO**s. They are funny!
 
@@ -260,6 +324,12 @@ Think you want to add a **quote**. Like this:
 
 So, use this structure:
 
+<div dir="ltr">
+
 ```markdown
 > I'm gonna make him an offer he can't refuse
 ```
+
+</div>
+
+</div>
