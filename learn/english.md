@@ -158,6 +158,6 @@ Markdown:
 
 Ok, In first sight, what did you remember? Linking. Right. kind of same. But in Link text we use `![image alt](image url)`. Image url is the image `src` and image alt is a text that if pictue couldn't load, text will be appear. And `link of picture` is a link that will be for picture. I mean when people click on it, will go to that link.
 
-That was images!
+That was how we use images!
 
 ---
