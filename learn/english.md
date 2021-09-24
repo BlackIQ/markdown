@@ -195,3 +195,45 @@ Markdown:
 How easy was that!? So much :)
 
 ---
+
+- ## Highlights
+
+Time to say the part that is really good. The reason that we use **Markdown**. that is **Highlight**ing codes or inline text.
+
+First lets speak about **inline**. Well we have nothing like this in **HTML**. Let's go to **markdown** code right now.
+
+```markdown
+This is an `inline highlighted` text.
+```
+
+Output:
+
+This is an `inline highlighted` text.
+
+Ok, now we know about inline highlights. But how to create something like this? :
+
+```python
+from platform import system as pltfrm
+from os import system as sstm
+
+if pltfrm().lower() == "windows":
+    sstm("cls")
+elif pltfrm().lower() == "linux":
+    sstm("clear")
+else:
+    sstm("clear")
+```
+
+Simple! Look at the code below:
+
+<code>
+```namr
+<br>
+content
+<br>
+```
+</code>
+
+What is `name`? Name is the name of the language that are you writing code in. That block was Python. So I used `python` front of ` ``` `.
+
+Done with **Highlight**s.
