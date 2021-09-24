@@ -226,17 +226,7 @@ else:
 
 Simple! Look at the code below:
 
-<code>
-<br>
-```name
-<br>
-<br>
-content
-<br>
-<br>
-```
-<br>
-</code>
+[![Image of highlights](md-highlight.png)](https://github.com/BlackIQ/markdown)
 
 What is `name`? Name is the name of the language that are you writing code in. That block was Python. So I used `python` front of ` ``` `.
 
