@@ -1,8 +1,8 @@
 <div dir="rtl">
 
-# Learn Markdown (English)
+# آموزش زبان Markdown (فارسی)
 
-Learn **Markdown** so easy in here.
+اینجا زبان **markdown** را یادبگیرید.
 
 - ## هدینگ یا سربرگ
 
@@ -25,7 +25,7 @@ HTML:
 
 </div>
 
-Output:
+خروجی:
 
 # Heading
 ## Heading
@@ -51,7 +51,7 @@ Markdown:
 
 </div>
 
-Output:
+خروجی:
 
 # Heading
 ## Heading
@@ -80,7 +80,7 @@ This is <b>Amir</b>. Nice to meet <b>you</b>.
 
 </div>
 
-Output:
+خروجی:
 
 This is **Amir**. Nice to meet **you**.
 
@@ -96,7 +96,7 @@ This is **Amir**. Nice to meet **you**.
 
 </div>
 
-Output:
+خروجی:
 
 This is **Amir**. Nice to meet **you**.
 
@@ -112,7 +112,7 @@ He said <i>I love to use Git in my projects</i>.
 
 </div>
 
-Output:
+خروجی:
 
 He said *I love to use Git in my projects*.
 
@@ -128,7 +128,7 @@ He said *I love to use Git in my projects*.
 
 </div>
 
-Output:
+خروجی:
 
 He said *I love to use Git in my projects*.
 
@@ -150,7 +150,7 @@ Open <a href="https://google.com">Google</a>
 
 </div>
 
-Output:
+خروجی:
 
 Open [Google](https://google.com)
 
@@ -184,7 +184,7 @@ HTML:
 
 </div>
 
-Output:
+خروجی:
 
 [![Tree](https://wallpapercave.com/wp/wp3385761.jpg)](https://wallpapercave.com/wp/wp3385761.jpg)
 
@@ -224,7 +224,7 @@ HTML:
 
 </div>
 
-Output:
+خروجی:
 
 - Item 1
 - Item 2
@@ -250,23 +250,23 @@ How easy was that!? So much :)
 
 - ## هایلایت ها
 
-Time to say the part that is really good. The reason that we use **Markdown**. that is **Highlight**ing codes or inline text.
+وقتشه که بخشی رو توضیح بدیم که خیلی خوشم میاد ازش. اون هم **هایلایت** ها میباشد. هایلایت های بلاکی و حتی هایلایت های خطی.
 
-First lets speak about **inline**. Well we have nothing like this in **HTML**. Let's go to **markdown** code right now.
+ابتدا در باره هایلایت **خطی** صحبت میکنیم. همچین چیزی داخل **HTML** وجود ندارد. پس مستقیم میریم سراغ کد **Markdown**.
 
-<div dir="ltr">
+<div dir="rtl">
 
 ```markdown
-This is an `inline highlighted` text.
+این یک `متن هایلایت شده` مباشد.
 ```
 
 </div>
 
-Output:
+خروجی:
 
-This is an `inline highlighted` text.
+این یک `متن هایلایت شده` مباشد.
 
-Ok, now we know about inline highlights. But how to create something like this? :
+خب ما هایلایت خطی را یادگرفتیم. پس چطوری همچین چیزی رو میتونیم بسازیم؟ :
 
 <div dir="ltr">
 
@@ -284,45 +284,53 @@ else:
 
 </div>
 
-Simple! Look at the code below:
+خیلی ساده. به نمونه کد زیر دقت کنید.
+
+<div dir="ltr">
 
 [![Image of highlights](md-highlight.png)](https://github.com/BlackIQ/markdown)
 
-What is `name`? Name is the name of the language that are you writing code in. That block was Python. So I used `python` front of ` ``` `.
+</div>
 
-Done with **Highlight**s.
+خب، `name` چیست؟‌نام همان اسم زبان میباشد که ما کد آن را مینویسیم. آن بلاک، یک بلاک پایتون بود. پس از پایتون رو به روی ` ``` ` استفاده شد.
+
+اتمام هایلایت ها!
 
 ---
 
 - ## تودو ها
 
-You can use **TODO** in **markdown**.
+از تودو ها در **markdown** استفاده کنید.
 
-- [x] Go school
-- [ ] Buy some LEDs
-- [x] Wash my hands :)
+- [x] رفتن به مدرسه
+- [ ] خرید لامپ
+- [x] شستن دست ها
 
 <div dir="ltr">
 
 ```markdown
-- [x] Go school
-- [ ] Buy some LEDs
-- [x] Wash my hands :)
+- [x] رفتن به مدرسه
+- [ ] خرید لامپ
+- [x] شستن دست ها
 ```
 
 </div>
 
-Use **TODO**s. They are funny!
+استفاده از تودو ها واقعا جالبه.
 
 ---
 
 - ## نقل قول
 
-Think you want to add a **quote**. Like this:
+فکر کنید میخواهید همچین نقل قولی را قرار دهید:
+
+<div dir="ltr">
 
 > I'm gonna make him an offer he can't refuse.
 
-So, use this structure:
+</div>
+
+ساختار به این صورت میباشد.
 
 <div dir="ltr">
 
