@@ -2,7 +2,7 @@
 
 Learn **Markdown** so easy in here.
 
-### Heading
+- ## Heading
 
 What are **Heading**s? The title or the name of a document or even an chapter of a book is a **Heading**. Now, let's learn how to use them!
 
@@ -53,3 +53,30 @@ Output:
 As you can see, we use `#`. If your heading is `<h2>`, use `##`. Hope you got the point!
 
 ---
+
+- ## Text style
+
+The meaning of text styles is the same as **bolding** and **italicizing** the text.
+
+In **HTML** we use `<b></b>` tags. In **md** we just use `**` in start and end of the text. Look at examples.
+
+HTML:
+```html
+This is <b>Amir</b>. Nice to meet <b>you</b>.
+```
+
+Output:
+
+This is **Amir**. Nice to meet **you**.
+
+In **MD** there is no differences.
+
+Markdown:
+
+```markdown
+This is **Amir**. Nice to meet **you**.
+```
+
+Output:
+
+This is **Amir**. Nice to meet **you**.
