@@ -103,3 +103,33 @@ He said *I love to use Git in my projects*.
 Output:
 
 He said *I love to use Git in my projects*.
+
+---
+
+- ## Links
+
+You may wanted to add a link in your text. You wanna use **HTML** tag!? Stop doing that!
+
+You can easily do that in **MD** syntax. Let's take a look to **HTML**.
+
+HTML:
+
+```html
+Open <a href="https://google.com">Google</a>
+```
+
+Output:
+
+Open [Google](https://google.com)
+
+Markdown:
+
+```markdown
+Open [Google](https://google.com)
+```
+
+Open [Google](https://google.com)
+
+Simple, We created links! Fitst part in `[]`, Put the text and in `()` put the link.
+
+---
