@@ -229,7 +229,9 @@ Simple! Look at the code below:
 <code>
 ```namr
 <br>
+<br>
 content
+<br>
 <br>
 ```
 </code>
