@@ -249,3 +249,17 @@ You can use **TODO** in **markdown**.
 ```
 
 Use **TODO**s. They are funny!
+
+---
+
+- ## Quote
+
+Think you want to add a **quote**. Like this:
+
+> I'm gonna make him an offer he can't refuse.
+
+So, use this structure:
+
+```markdown
+> I'm gonna make him an offer he can't refuse
+```
