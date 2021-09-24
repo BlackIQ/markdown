@@ -66,107 +66,108 @@ As you can see, we use `#`. If your heading is `<h2>`, use `##`. Hope you got th
 
 - ## استایل متن
 
-The meaning of text styles is the same as **bolding** and **italicizing** the text.
+معنیه استایل متن همان ایتالیک کردن یا بولد کردن متن میباشد.
 
-In **HTML** we use `<b></b>` tags. In **md** we just use `**` in start and end of the text. Look at examples.
-
-HTML:
-
-<div dir="ltr">
-
-```html
-This is <b>Amir</b>. Nice to meet <b>you</b>.
-```
-
-</div>
-
-خروجی:
-
-This is **Amir**. Nice to meet **you**.
-
-In **MD** there is no differences.
-
-Markdown:
-
-<div dir="ltr">
-
-```markdown
-This is **Amir**. Nice to meet **you**.
-```
-
-</div>
-
-خروجی:
-
-This is **Amir**. Nice to meet **you**.
-
-Ok, Now how to make a text **italic**? Just use one star `*`.
+ما داخل **HTML** تگ های مخصوص را داریم که در اینجا دیگر نیازی به آنها نیست. برای مثال بولد کردن. فقط از `**` استفاده میشود.
 
 HTML:
 
 <div dir="ltr">
 
 ```html
-He said <i>I love to use Git in my projects</i>.
+من <b>امیر</b> هستم. از آشنایی با <b>شما</b> خوشبختم.
 ```
 
 </div>
 
 خروجی:
 
-He said *I love to use Git in my projects*.
+من **امیر** هستم. از آشنایی با **شما** خوشبختم.
 
-Again, in **MD** there is no differences.
+
+داخل **MD** تغییر زیادی ندارد.
 
 Markdown:
 
-<div dir="ltr">
+<div dir="rtl">
 
 ```markdown
-He said *I love to use Git in my projects*.
+من **امیر** هستم. از آشنایی با **شما** خوشبختم.
 ```
 
 </div>
 
 خروجی:
 
-He said *I love to use Git in my projects*.
+من **امیر** هستم. از آشنایی با **شما** خوشبختم.
+
+اما ولی چطوری حالا متن رو ایتالیک کنیم؟ فقط کافیه از یه ستاره استفاده کنیم! `*`.
+
+HTML:
+
+<div dir="ltr">
+
+```html
+اون گفت <i>من عاشق استفاده از گیت هستم</i>.
+```
+
+</div>
+
+خروجی:
+
+اون گفت *من عاشق استفاده از گیت هستم*.
+
+داخل **MD** هم خروجی فرقی نمیکنه.
+
+Markdown:
+
+<div dir="rtl">
+
+```markdown
+اون گفت *من عاشق استفاده از گیت هستم*.
+```
+
+</div>
+
+خروجی:
+
+اون گفت *من عاشق استفاده از گیت هستم*.
 
 ---
 
 - ## لینک ها
 
-You may wanted to add a link in your text. You wanna use **HTML** tag!? Stop doing that!
+شاید لازم باشه داخل متن از لینک استفاده کنید. از **HTML** کمک میگیرید؟ این کار رو همین الان بزارید کنار!
 
-You can easily do that in **MD** syntax. Let's take a look to **HTML**.
+ما الان به سینتکس لینک دهی توی **Markdown** آشنا میشویم.
 
 HTML:
 
 <div dir="ltr">
 
 ```html
-Open <a href="https://google.com">Google</a>
+ورود به <a href="https://google.com">گوگل</a>
 ```
 
 </div>
 
 خروجی:
 
-Open [Google](https://google.com)
+ورود به [گوگل](https://google.com)
 
 Markdown:
 
 <div dir="ltr">
 
 ```markdown
-Open [Google](https://google.com)
+[گوگل](https://google.com) ورود به
 ```
 
 </div>
 
-Open [Google](https://google.com)
+ورود به [گوگل](https://google.com)
 
-Simple, We created links! Fitst part in `[]`, Put the text and in `()` put the link.
+راحت یه لینک درست کردیم. داخل `[]`, اسم رو بزارید و داخل `()` لینک رو بزارید.
 
 ---
 
@@ -208,7 +209,7 @@ That was how we use images!
 
 - ## لیست ها
 
-We use 2 kind of lists. Ordinary and Unordinary. `ol` and `ul`. But this is just for **HTML**. We can use unordinary list in **Markdown**.
+ما دو نوع لیست داریم. ترتیبی و غیر ترتیبی. داخل **HTML** این دو نوع وجود دارد. اما ولی داخل **Markdown** فقط غیر ترتیبی وجو دارد.
 
 HTML:
 
@@ -216,9 +217,9 @@ HTML:
 
 ```html
 <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+    <li>آیتم 1</li>
+    <li>آیتم 2</li>
+    <li>آیتم 3</li>
 </ul>
 ```
 
@@ -226,25 +227,25 @@ HTML:
 
 خروجی:
 
-- Item 1
-- Item 2
-- Item 3
+- آیتم 1
+- آیتم 2
+- آیتم 3
 
-And in **MD** we just use `-`!
+و فقط داخل **markdown** از `-` استفاده میکنیم.
 
 Markdown:
 
 <div dir="ltr">
 
 ```markdown
-- Item 1
-- Item 2
-- Item 3
+- آیتم 1
+- آیتم 2
+- آیتم 3
 ```
 
 </div>
 
-How easy was that!? So much :)
+چقدر ساده بود؟ خیلی زیاد!
 
 ---
 
