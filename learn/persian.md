@@ -4,7 +4,7 @@
 
 Learn **Markdown** so easy in here.
 
-- ## Heading
+- ## هدینگ یا سربرگ
 
 What are **Heading**s? The title or the name of a document or even an chapter of a book is a **Heading**. Now, let's learn how to use them!
 
@@ -64,7 +64,7 @@ As you can see, we use `#`. If your heading is `<h2>`, use `##`. Hope you got th
 
 ---
 
-- ## Text style
+- ## استایل متن
 
 The meaning of text styles is the same as **bolding** and **italicizing** the text.
 
@@ -134,7 +134,7 @@ He said *I love to use Git in my projects*.
 
 ---
 
-- ## Links
+- ## لینک ها
 
 You may wanted to add a link in your text. You wanna use **HTML** tag!? Stop doing that!
 
@@ -170,7 +170,7 @@ Simple, We created links! Fitst part in `[]`, Put the text and in `()` put the l
 
 ---
 
-- ## Images
+- ## عکس ها
 
 I love puting images in **Markdown**. Simple, Fast and easy syntax. As always, how is **HTML** way?
 
@@ -206,7 +206,7 @@ That was how we use images!
 
 ---
 
-- ## Lists
+- ## لیست ها
 
 We use 2 kind of lists. Ordinary and Unordinary. `ol` and `ul`. But this is just for **HTML**. We can use unordinary list in **Markdown**.
 
@@ -248,7 +248,7 @@ How easy was that!? So much :)
 
 ---
 
-- ## Highlights
+- ## هایلایت ها
 
 Time to say the part that is really good. The reason that we use **Markdown**. that is **Highlight**ing codes or inline text.
 
@@ -294,7 +294,7 @@ Done with **Highlight**s.
 
 ---
 
-- ## TODO
+- ## تودو ها
 
 You can use **TODO** in **markdown**.
 
@@ -316,7 +316,7 @@ Use **TODO**s. They are funny!
 
 ---
 
-- ## Quote
+- ## نقل قول
 
 Think you want to add a **quote**. Like this:
 
