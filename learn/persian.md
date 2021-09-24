@@ -173,7 +173,7 @@ Markdown:
 
 - ## عکس ها
 
-I love puting images in **Markdown**. Simple, Fast and easy syntax. As always, how is **HTML** way?
+واقعا از قرار دادن عکس ها خوشم میاد. چون هم ساده هست و هم سریع. اما ولی خب چطوری!؟
 
 HTML:
 
@@ -189,7 +189,7 @@ HTML:
 
 [![Tree](https://wallpapercave.com/wp/wp3385761.jpg)](https://wallpapercave.com/wp/wp3385761.jpg)
 
-In **MD** this is more easiler. Just pay attention.
+داخل **MD** خیلی ساده تره. فقط دقت کنید.
 
 Markdown:
 
@@ -201,9 +201,13 @@ Markdown:
 
 </div>
 
-Ok, In first sight, what did you remember? Linking. Right. kind of same. But in Link text we use `![image alt](image url)`. Image url is the image `src` and image alt is a text that if pictue couldn't load, text will be appear. And `link of picture` is a link that will be for picture. I mean when people click on it, will go to that link.
+در اولین نگاه یاد چی می افتید؟ بله، لینک ها. اما با این تفاوت که یکم تغییر کرده! چند قسمت جدید داره. متن عکس، لینک عکس. 
 
-That was how we use images!
+خب، `![image alt](image url)` میشه تیکه اول یا پارت اول اون سینتکس. یعنی قسمتی که ما لینک عکس رو وارد میکنیم و میگیم که اگه عکس باز نشد متن چی باشه. متن نمایش داده شده میشه `Image Alt` و لینک عکس هم میشه `image url`.
+
+در قسمت دوم یعنی پرانتز یه لینک دیگه هست. لینک اون قسمت هم میشه لینکی که وقتی روی عکس کلیک میشه یوزر به اون لینک میره.
+
+این روش استفاده از عکس ها بود.
 
 ---
 
