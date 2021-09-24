@@ -133,3 +133,31 @@ Open [Google](https://google.com)
 Simple, We created links! Fitst part in `[]`, Put the text and in `()` put the link.
 
 ---
+
+- ## Images
+
+I love puting images in **Markdown**. Simple, Fast and easy syntax. As always, how is **HTML** way?
+
+HTML:
+
+```html
+<img alt="Tree" src="https://wallpapercave.com/wp/wp3385761.jpg">
+```
+
+Output:
+
+[![Tree](https://wallpapercave.com/wp/wp3385761.jpg)](https://wallpapercave.com/wp/wp3385761.jpg)
+
+In **MD** this is more easiler. Just pay attention.
+
+Markdown:
+
+```markdown
+[![Image Alt](image url)](link of picture)
+```
+
+Ok, In first sight, what did you remember? Linking. Right. kind of same. But in Link text we use `![image alt](image url)`. Image url is the image `src` and image alt is a text that if pictue couldn't load, text will be appear. And `link of picture` is a link that will be for picture. I mean when people click on it, will go to that link.
+
+That was images!
+
+---
