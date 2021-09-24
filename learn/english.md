@@ -227,13 +227,15 @@ else:
 Simple! Look at the code below:
 
 <code>
-```namr
+<br>
+```name
 <br>
 <br>
 content
 <br>
 <br>
 ```
+<br>
 </code>
 
 What is `name`? Name is the name of the language that are you writing code in. That block was Python. So I used `python` front of ` ``` `.
