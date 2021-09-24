@@ -161,3 +161,37 @@ Ok, In first sight, what did you remember? Linking. Right. kind of same. But in 
 That was how we use images!
 
 ---
+
+- ## Lists
+
+We use 2 kind of lists. Ordinary and Unordinary. `ol` and `ul`. But this is just for **HTML**. We can use unordinary list in **Markdown**.
+
+HTML:
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+```
+
+Output:
+
+- Item 1
+- Item 2
+- Item 3
+
+And in **MD** we just use `-`!
+
+Markdown:
+
+```markdown
+- Item 1
+- Item 2
+- Item 3
+```
+
+How easy was that!? So much :)
+
+---
