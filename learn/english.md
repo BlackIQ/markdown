@@ -231,3 +231,21 @@ Simple! Look at the code below:
 What is `name`? Name is the name of the language that are you writing code in. That block was Python. So I used `python` front of ` ``` `.
 
 Done with **Highlight**s.
+
+---
+
+- ## TODO
+
+You can use **TODO** in **markdown**.
+
+- [x] Go school
+- [ ] Buy some LEDs
+- [x] Wash my hands :)
+
+```markdown
+- [x] Go school
+- [ ] Buy some LEDs
+- [x] Wash my hands :)
+```
+
+Use **TODO**s. They are funny!
