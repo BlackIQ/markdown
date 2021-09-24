@@ -6,61 +6,61 @@
 
 - ## هدینگ یا سربرگ
 
-What are **Heading**s? The title or the name of a document or even an chapter of a book is a **Heading**. Now, let's learn how to use them!
+سربرگ چیست؟ معمولا تایتل یه متن یا چپتر یا غیره هدینگ حساب میشود.
 
-In **HTML** we use `<h1></h1>` tag. These are **Heading**s. But not **md**. We use `#` instead of `<h1></h1>` tags. Fitst I will show you **HTML** way and next, **Markdown**!
+داخل **HTML** از تگ های هدینگ از یک تا شش استفاده میشود. یعنی `<h1></h1>` تا 6. اما از `#` در **MD** استفاده میشود.
 
 HTML:
 
 <div dir="ltr">
 
 ```html
-<h1>Heading</h1>
-<h2>Heading</h2>
-<h3>Heading</h3>
-<h4>Heading</h4>
-<h5>Heading</h5>
-<h6>Heading</h6>
+<h1>سربرگ</h1>
+<h2>سربرگ</h2>
+<h3>سربرگ</h3>
+<h4>سربرگ</h4>
+<h5>سربرگ</h5>
+<h6>سربرگ</h6>
 ```
 
 </div>
 
 خروجی:
 
-# Heading
-## Heading
-### Heading
-#### Heading
-##### Heading
-###### Heading
+# سربرگ
+## سربرگ
+### سربرگ
+#### سربرگ
+##### سربرگ
+###### سربرگ
 
-Ok, But how to use these in **Markdown**?
+چطوری اینا رو توی **Markdown** استفاده کنیم؟
 
 Markdown:
 
 <div dir="ltr">
 
 ```markdown
-# Heading
-## Heading
-### Heading
-#### Heading
-##### Heading
-###### Heading
+# سربرگ
+## سربرگ
+### سربرگ
+#### سربرگ
+##### سربرگ
+###### سربرگ
 ```
 
 </div>
 
 خروجی:
 
-# Heading
-## Heading
-### Heading
-#### Heading
-##### Heading
-###### Heading
+# سربرگ
+## سربرگ
+### سربرگ
+#### سربرگ
+##### سربرگ
+###### سربرگ
 
-As you can see, we use `#`. If your heading is `<h2>`, use `##`. Hope you got the point!
+همانطور که دیدید، از `#` به جای تگ ها استفاده میکنیم. اگر هدینگ ما `h2` بود پس از `##` استفاده میشود.
 
 ---
 
