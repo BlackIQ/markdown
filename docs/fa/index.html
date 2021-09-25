@@ -1,0 +1,462 @@
+<html>
+    <head>
+        <title>مارک داون فارسی</title>
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../static/main.css">
+        <link rel="stylesheet" type="text/css" href="../static/light.css">
+        <link rel="stylesheet" type="text/css" href="../static/dark.css">
+    </head>
+    <body class="all fa">
+        <div class="main">
+            <h1>آموزش Markdown.</h1>
+            <hr>
+            <div>
+                <p>
+                    Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form.
+                </p>
+                <p>
+                    Here you will learn about it more and how to use that.
+                </p>
+            </div>
+            <br>
+            <h2>Headings</h2>
+            <hr class="under">
+            <div>
+                <p>
+                    What are Headings? The title or the name of a document or even an chapter of a book is a Heading. Now, let's learn how to use them!
+                </p>
+                <p>
+                    In HTML we use <code class="inline">H</code> tags. These are Headings. But not md. We use <code class="inline">#</code> instead of <code class="inline">H</code> tags. Fitst I will show you HTML way and next, Markdown!
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>HTML</b></p>
+                        <div class="code">
+                            <xmp>
+    <h1>Heading</h1>
+    
+    <h2>Heading</h2>
+    
+    <h3>Heading</h3>
+    
+    <h4>Heading</h4>
+    
+    <h5>Heading</h5>
+    
+    <h6>Heading</h6>
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <h1>Heading</h1>
+                        <h2>Heading</h2>
+                        <h3>Heading</h3>
+                        <h4>Heading</h4>
+                        <h5>Heading</h5>
+                        <h6>Heading</h6>
+                    </div>
+                </div>
+                <br>
+                <p>
+                    Ok, right. Let's go for markdown.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    # Heading
+    
+    ## Heading
+    
+    ### Heading
+    
+    #### Heading
+    
+    ##### Heading
+    
+    ###### Heading
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <h1>Heading</h1>
+                        <h2>Heading</h2>
+                        <h3>Heading</h3>
+                        <h4>Heading</h4>
+                        <h5>Heading</h5>
+                        <h6>Heading</h6>
+                    </div>
+                </div>
+            </div>
+            <p>
+                As you can see, we use <code class="inline">#</code>. If your heading is <code class="inline">H2</code>, use <code class="inline">##</code>. Hope you got the point!
+            </p>
+            <br>
+            <h2>Text style</h2>
+            <hr class="under">
+            <p>
+                The meaning of text styles is the same as bolding and italicizing the text.
+            </p>
+            <p>
+                In HTML we use <code class="inline">b</code> tags. In md we just use <code class="inline">**</code> in start and end of the text. Look at examples.
+            </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>HTML</b></p>
+                    <div class="code">
+                        <xmp>
+    This is <b>Amir</b>. Nice to meet <b>you</b>.
+                        </xmp>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <p><b>Output</b></p>
+                    <p>This is <b>Amir</b>. Nice to meet <b>you</b>.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>Markdown</b></p>
+                    <div class="code">
+                        <xmp>
+    This is **Amir**. Nice to meet **you**.
+                        </xmp>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <p><b>Output</b></p>
+                    <p>This is <b>Amir</b>. Nice to meet <b>you</b>.</p>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <p>
+                Now, this is how to make a text italic. In HTML people use <code class="inline">i</code> and in Markdown we use stars. Not 2. Just one!
+            </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>HTML</b></p>
+                    <div class="code">
+                        <xmp>
+    He said <i>I love to use Git in my projects</i>.
+                        </xmp>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <p><b>Output</b></p>
+                    <p>He said <i>I love to use Git in my projects</i>.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>Markdown</b></p>
+                    <div class="code">
+                        <xmp>
+    He said *I love to use Git in my projects*.
+                        </xmp>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <p><b>Output</b></p>
+                    <p>He said <i>I love to use Git in my projects</i>.</p>
+                    <br>
+                </div>
+            </div>
+            <p>This was italic and bold methods!</p>
+            <br>
+            <h2>Links</h2>
+            <hr class="under">
+            <div>
+                <p>
+                    You may wanted to add a link in your text. You wanna use HTML tag!? Stop doing that!
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>HTML</b></p>
+                        <div class="code">
+                            <xmp>
+    Open <a href="https://google.com">Google</a>
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <p>Open <a href="https://google.com">Google</a></p>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    Open [Google](https://google.com)
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <p>Open <a href="https://google.com">Google</a></p>
+                        <br>
+                    </div>
+                </div>
+                <p>
+                    Ok, how to use this?
+                </p>
+                <p>
+                    First in <code class="inline">[]</code> add the text and in <code class="inline">()</code> place the link.
+                    <br>
+                    Now you created a link in Markdown.
+                </p>
+            </div>
+            <br>
+            <h2>Lists</h2>
+            <hr class="under">
+            <div>
+                <p>
+                    We have 2 lists. Ordinary and Unordinary. In Markdown we just have one kind of list. Just unordinary.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>HTML</b></p>
+                        <div class="code">
+                            <xmp>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+                        <br>
+                    </div>
+                </div>
+                <p>
+                    That was HTML. In Markdown we use <code class="inline">-</code> for an item.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    - Item 1
+    - Item 2
+    - Item 3
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+                        <br>
+                    </div>
+                </div>
+                <p>
+                    Every way, output is same.
+                </p>
+            </div>
+            <br>
+            <h2>Images</h2>
+            <hr class="under">
+            <div>
+                <p>
+                    We have 2 lists. Ordinary and Unordinary. In Markdown we just have one kind of list. Just unordinary.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>HTML</b></p>
+                        <div class="code">
+                            <xmp>
+    <img alt="Tree" src="https://wallpapercave.com/wp/wp3385761.jpg">
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <img alt="Tree" style="max-height:100%; max-width:100%;" src="https://wallpapercave.com/wp/wp3385761.jpg">
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    [![Image Alt](image url)](link of picture)
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <p>
+                            <img alt="Tree" style="max-height:100%; max-width:100%;" src="https://wallpapercave.com/wp/wp3385761.jpg">
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <p>
+                    Ok, In first sight, what did you remember? Linking.
+                    Right. kind of same.
+                    But in Link text we use <code class="inline">![image alt](image url)</code>.
+                    Image url is the image <code class="inline">src</code> and image alt is a text that if pictue couldn't load, text will be appear.
+                    And <code class="inline">link of picture</code> is a link that will be for picture.
+                    I mean when people click on it, will go to that link.
+                </p>
+            </div>
+            <br>
+            <h2>TODO</h2>
+            <hr class="under">
+            <div>
+                <p>
+                    There is nothing named TODO in HTML. It is just in Markdown.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    - [x] Go school
+    - [ ] Buy some LEDs
+    - [x] Wash my hands :)
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <input type="checkbox" checked disabled> Go school
+                        <br>
+                        <input type="checkbox" disabled> Buy some LEDs
+                        <br>
+                        <input type="checkbox" checked disabled> Wash my hands :)
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h2>Highlights</h2>
+            <hr class="under">
+            <div>
+                <p>
+                    Again, there is nothing named Highlights in HTML.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    ```python
+    from platform import system as pltfrm
+    from os import system as sstm
+    
+    if pltfrm().lower() == "windows":
+        sstm("cls")
+    elif pltfrm().lower() == "linux":
+        sstm("clear")
+    else:
+        sstm("clear")
+    ```
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <div class="code">
+                            <pre class="code prettyprint">
+    from platform import system as pltfrm
+    from os import system as sstm
+
+
+    if pltfrm().lower() == "windows":
+        sstm("cls")
+    elif pltfrm().lower() == "linux":
+        sstm("clear")
+    else:
+        sstm("clear")
+                            </code>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    But how to create a text like <code class="inline">this text that has bacground</code>?
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    This text is not. `This text is`.
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        This text is not. <code class="inline">This text is</code>.
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h2>Quote</h2>
+            <hr class="under">
+            <div>
+                <p>
+                    Think you want to add a quote. Like this:
+                </p>
+                <p>
+                    <q>
+                        I'm gonna make him an offer he can't refuse.
+                    </q>
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    > I'm gonna make him an offer he can't refuse.
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        <q>I'm gonna make him an offer he can't refuse.</q>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -4,3 +4,8 @@
 .all {
     padding: 5%;
 }
+
+.fa {
+    text-align: right;
+    direction: rtl;
+}
