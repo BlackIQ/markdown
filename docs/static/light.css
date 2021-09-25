@@ -13,6 +13,8 @@
         color: black;
         border-radius: 10px;
         background-color: #ddd;
+        direction: ltr;
+        text-align: left;
     }
     .inline {
         padding: 0.5%;
