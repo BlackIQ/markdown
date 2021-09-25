@@ -1,13 +1,26 @@
 @media (prefers-color-scheme: dark) {
+    * {
+        font-family: 'Nunito', sans-serif;
+    }
+
     .all {
         background-color: #0A2A30;
         color: white;
-        font-family: 'Nunito', sans-serif;
     }
     .code {
         font-family: 'Roboto Mono', monospace;
-        padding: 2%;
+        padding: 0%;
+        color: white;
         border-radius: 10px;
         background-color: #0E5463;
+    }
+    .inline {
+        padding: 0.5%;
+        color: white;
+        border-radius: 5px;
+        background-color: #0E5463;
+    }
+    .under {
+        border-color: teal;
     }
 }
