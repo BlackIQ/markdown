@@ -2,8 +2,12 @@
 
 Learn **Markdown** so easy in here. English or Persian :)
 
-- [Persian document](learn/persian.md)
-- [English document](learn/english.md)
+**Persian**
 
+- [Web](https://md.blackiq.ir/fa)
+- [Github](learn/persian.md)
 
-Read in [online](https://md.blackiq.ir)
+**English**
+
+- [Web](https://md.blackiq.ir/en)
+- [Github](learn/english.md)
