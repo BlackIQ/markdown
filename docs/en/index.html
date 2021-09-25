@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Markdown English</title>
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../static/main.css">
         <link rel="stylesheet" type="text/css" href="../static/light.css">
@@ -341,19 +342,38 @@
                     </div>
                     <div class="col-md-6">
                         <p><b>Output</b></p>
-                        <div>
-                            <code>
-                                from platform import system as pltfrm
-                                from os import system as sstm
+                        <div class="code">
+                            <pre class="code prettyprint">
+    from platform import system as pltfrm
+    from os import system as sstm
 
-                                if pltfrm().lower() == "windows":
-                                    sstm("cls")
-                                elif pltfrm().lower() == "linux":
-                                    sstm("clear")
-                                else:
-                                    sstm("clear")
+
+    if pltfrm().lower() == "windows":
+        sstm("cls")
+    elif pltfrm().lower() == "linux":
+        sstm("clear")
+    else:
+        sstm("clear")
                             </code>
                         </div>
+                    </div>
+                </div>
+                <p>
+                    But how to create a text like <code class="inline">this text that has bacground</code>?
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>Markdown</b></p>
+                        <div class="code">
+                            <xmp>
+    This text is not. `This text is`.
+                            </xmp>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Output</b></p>
+                        This text is not. <code class="inline">This text is</code>.
                     </div>
                 </div>
             </div>
