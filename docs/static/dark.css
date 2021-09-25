@@ -22,6 +22,14 @@
         border-radius: 5px;
         background-color: #0E5463;
     }
+    .inline-fa {
+        padding: 0.5%;
+        color: white;
+        direction: rtl;
+        text-align: right;
+        border-radius: 5px;
+        background-color: #0E5463;
+    }
     .under {
         border-color: teal;
     }
