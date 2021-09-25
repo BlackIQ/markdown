@@ -11,3 +11,10 @@ Learn **Markdown** so easy in here. English or Persian :)
 
 - [Web](https://md.blackiq.ir/en)
 - [Github](learn/english.md)
+
+### Contrubuting
+
+- You can open an issue if there is a problem.
+- If something is missed, open an issue and name it.
+
+Pull requests are welcome!
