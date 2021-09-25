@@ -22,6 +22,14 @@
         border-radius: 5px;
         background-color: #ddd;
     }
+    .inline-fa {
+        padding: 0.5%;
+        color: black;
+        direction: rtl;
+        text-align: right;
+        border-radius: 5px;
+        background-color: #ddd;
+    }
     .under {
         border-color: #bbb;
     }
