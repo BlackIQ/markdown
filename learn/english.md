@@ -196,6 +196,55 @@ How easy was that!? So much :)
 
 ---
 
+- ## Nested list
+
+We all know what are **Nested Lists**, but how to create one of them here?
+
+```markdown
+- Item 1
+    - Sub 1
+- Item 2
+    - Sub 2
+- Item 3
+    - Sub 3
+```
+
+- Item 1
+    - Sub 1
+- Item 2
+    - Sub 2
+- Item 3
+    - Sub 3
+
+
+Or go further!
+
+```markdown
+- Item 1
+    - Sub 1
+        - Sub Sub 1
+- Item 2
+    - Sub 2
+        - Sub Sub 1
+- Item 3
+    - Sub 3
+        - Sub Sub 1
+```
+
+- Item 1
+    - Sub 1
+        - Sub Sub 1
+- Item 2
+    - Sub 2
+        - Sub Sub 1
+- Item 3
+    - Sub 3
+        - Sub Sub 1
+
+This is **Nested Lists**.
+
+---
+
 - ## Highlights
 
 Time to say the part that is really good. The reason that we use **Markdown**. that is **Highlight**ing codes or inline text.
