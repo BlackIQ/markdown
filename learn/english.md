@@ -196,6 +196,36 @@ How easy was that!? So much :)
 
 ---
 
+- ## Ordinary lists
+
+You know, we also can make **Ordianary lists** too :)
+
+Markdown:
+
+```markdown
+1. Item 1
+    1. Item 2
+2. Item 2
+    1. Item 2
+3. Item 3
+    1. Item 3
+```
+
+Output:
+
+1. Item 1
+    1. Item 2
+2. Item 2
+    1. Item 2
+3. Item 3
+    1. Item 3
+
+This is **Ordinary lists** :)
+
+Was it clear?
+
+---
+
 - ## Nested list
 
 We all know what are **Nested Lists**, but how to create one of them here?
