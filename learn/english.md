@@ -342,3 +342,74 @@ So, use this structure:
 ```markdown
 > I'm gonna make him an offer he can't refuse
 ```
+
+- ## Table
+
+Tables are easy in Markdown.
+
+Fitst of all, first row is always the heading. The head of the table.
+
+```markdown
+| Name | Last Name | Age |
+```
+
+| Name | Last Name | Age |
+
+If you want to make the column in center align, 
+
+```markdown
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+```
+
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+
+
+But how to add a new row?
+
+```markdown
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+```
+
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+
+We know how to create a column that is center. How to create one that is left or right?
+
+```markdown
+| Name | Last Name | Age |
+| ---: | :---: | :--- |
+| Amir | Mohammadi | 17 |
+```
+
+| Name | Last Name | Age |
+| ---: | :---: | :--- |
+| Amir | Mohammadi | 17 |
+
+We use `:--` for left and `--:` for right align.
+
+It doesn't matter that the structure be somethign exactly under each other in a specefic size.
+
+For example:
+
+```markdown
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+| Ali | Hosseini | 20 |
+| Omid | Zangeneg | 16 |
+| Mohammadi | Fardi | 30 |
+```
+
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+| Ali | Hosseini | 20 |
+| Omid | Zangeneg | 16 |
+| Mohammadi | Fardi | 30 |
+
+And at last, for no align, use `---`. Done.
