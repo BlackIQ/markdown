@@ -436,4 +436,115 @@ else:
 
 </div>
 
+- ## جداول
+
+جدول ها در md خیلی راحت میباشد!
+
+اول از همه، ردیف اول همیشه هدینگ میباشد. یعنی سر جدول. اون ها به این شکل ساخته میشند.
+
+<div dir="ltr">
+
+```markdown
+| Name | Last Name | Age |
+```
+
+</div>
+
+<div dir="ltr">
+
+| Name | Last Name | Age |
+
+</div>
+
+برای وسط چین کردن یه ستون جدول از `:---:` استفاده میشود.
+
+<div dir="ltr">
+
+```markdown
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+```
+
+</div>
+
+<div dir="ltr">
+
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+
+</div>
+
+اما ولی چطوری یه ردیف بهش اضافه کنیم؟
+
+<div dir="ltr">
+
+```markdown
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+```
+
+</div>
+
+<div dir="ltr">
+
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+
+</div>
+
+ما تا الان ساخت جدول، وسط چیت کردن رو یاد گرفتیم. حتی اضافه کردن ردیف هم یاد گرفتیم. اما ولی چطوری برای مثال یه ستون رو چپ چین کنیم و یکی وسط چین؟
+
+<div dir="ltr">
+
+```markdown
+| Name | Last Name | Age |
+| ---: | :---: | :--- |
+| Amir | Mohammadi | 17 |
+```
+
+</div>
+
+<div dir="ltr">
+
+| Name | Last Name | Age |
+| ---: | :---: | :--- |
+| Amir | Mohammadi | 17 |
+
+</div>
+
+پس، `-:` برای چپ چین کردن و از دیگری یعنی `:-` برای راست چین کردن استفاده میشه.
+
+دقت کنید دلیلی نداره که حتما باید جدول زیر هم باشه توی نوشتار.
+به هر ترتیبی که نوشته شود یک چیز اجرا میشود.
+
+برای مثال:
+
+<div dir="ltr">
+
+```markdown
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+| Ali | Hosseini | 20 |
+| Omid | Zangeneg | 16 |
+| Mohammadi | Fardi | 30 |
+```
+
+</div>
+
+<div dir="ltr">
+
+| Name | Last Name | Age |
+| :---: | :---: | :---: |
+| Amir | Mohammadi | 17 |
+| Ali | Hosseini | 20 |
+| Omid | Zangeneg | 16 |
+| Mohammadi | Fardi | 30 |
+
+</div>
+
+اگر هم میخواهید که هیچ الاین یا همون align نداشته باشه جدول، از `---` استفاده کنید.
+
 </div>
